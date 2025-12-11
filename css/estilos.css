@@ -1,24 +1,35 @@
-:root{
-    --color-primary-bg: rgb(224, 191, 83);    
+:root {
+    --color-primary-bg: rgb(224, 191, 83);
 }
 
 body {
     background-image: url('/img/fundoPortifolio.jpg');
     background-size: cover;
-    font-family:"Helvetica Neue" !important ;
-    background-repeat: no-repeat;
-    height: 100vh;
+    font-family: "Helvetica Neue" !important;
+    background-repeat: no-repeat; 
+    height: 100vh !important;
 }
 
-.txtoh1{
-color: var(--color-primary-bg);
-position: absolute;
-top:100px;
-left:50px
+.txtoh1 {
+    color: var(--color-primary-bg);
+    position: absolute;
+    top: 100px;
+    left: 50px
 }
 
-.bbt{
+.bbt {
     background-color: var(--color-primary-bg) !important;
-    width: 40px!important;
-    height: 40px!important;
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.abd {
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    height: 90vh;
+    border : 2px solid var(--color-primary-bg) !important;
+    /* border-color: var(--color-primary-bg) !important; */
+    
+    
 }
