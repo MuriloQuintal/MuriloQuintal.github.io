@@ -1,0 +1,24 @@
+:root{
+    --color-primary-bg: rgb(224, 191, 83);    
+}
+
+body {
+    background-image: url('/img/fundoPortifolio.jpg');
+    background-size: cover;
+    font-family:"Helvetica Neue" !important ;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.txtoh1{
+color: var(--color-primary-bg);
+position: absolute;
+top:100px;
+left:50px
+}
+
+.bbt{
+    background-color: var(--color-primary-bg) !important;
+    width: 40px!important;
+    height: 40px!important;
+}
